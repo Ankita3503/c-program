@@ -5,7 +5,6 @@ void main ()
     int matrix[10][10];
     int i, j, m, n;
     int sparse_counter = 0;
- 
     printf("Enter the order of the matix \n");
     scanf("%d %d", &m, &n);
     printf("Enter the elements of the matix \n");
@@ -26,5 +25,6 @@ void main ()
     }
     else
         printf("The given matrix is not a Sparse Matrix \n");
+ 
     printf("There are %d number of Zeros.", sparse_counter);
 }
